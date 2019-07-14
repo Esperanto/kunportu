@@ -1,0 +1,291 @@
+[
+	{
+		"nomo": "Kuhhandel",
+		"ludantoj": [2, 6],
+		"agxgrupo": "ekde 10 jaroj",
+		"luddauxro": "40 minutoj",
+		"kosto": 10,
+		"valuto": "€",
+		"bildligilo" : "https://ssl-static-images.ravensburger.de/images/produktseiten/360/20752.jpg",
+		"priskribo": "Vi krias en aŭkcio por esti la plej altaŭkcianta por aĉeti bestojn. Kiu havas la plej diversan Bauernhof venkas finfine.\n\nSed ne lasu vin trompi de viaj kunludantoj en negociado de viaj bestojn!",
+		"enlude_lingvodependa": false,
+		"ligilo_eldonanto": ["https://www.ravensburger.de/produkte/spiele/kartenspiele/kuhhandel-master-20752/index.html"],
+		"rimarkoj": "Ekzistas du versioj, nepre aĉetu la Master eldono, ĉar samkostas kaj enhavas pli da kartojn.",
+		"tags": [
+			"konkursiga",
+			"kartludo",
+			"strategio"
+		]
+	},
+	{
+		"nomo": "Hanabi",
+		"ludantoj": [2, 5],
+		"agxgrupo": "ekde 8 jaroj",
+		"luddauxro": "30 minutoj",
+		"kosto": 8,
+		"valuto": "€",
+		"bildligilo" : "https://abacusspiele.de/wp-content/uploads/2016/06/HanabiSdJ_Bild01_Cover3D_sRGB-600x600.jpg",
+		"priskribo": "Hanabi en la japana signifas artfajraĵo. Same en la ludo vi kune devas ĝusttempe lanĉi raketojn, por krei la plej belan artfajraĵo, sed la komuniko dum la evento estas limita, do pensu bone, kaj komunike efektive!",
+		"enlude_lingvodependa": false,
+		"ligilo_eldonanto": ["https://abacusspiele.de/spiele/hanabi/"],
+		"rimarkoj": "Ekzistas du versioj, nepre aĉetu la Master eldono, ĉar samkostas kaj enhavas pli da kartojn.",
+		"tags": [
+			"kooperiga",
+			"kartludo",
+			"strategio"
+		]
+	},
+	{
+		"nomo": "Codenames",
+		"ludantoj": [2, 8, "+"],
+		"agxgrupo": "ekde 14 jaroj",
+		"luddauxro": "15 minutoj",
+		"kosto": 12.5,
+		"valuto": "€",
+		"bildligilo" : "https://abacusspiele.de/wp-content/uploads/2016/06/HanabiSdJ_Bild01_Cover3D_sRGB-600x600.jpg",
+		"priskribo": "Du agentujoj volas plej rapide komuniki siajn informojn. Via teamo bezonas bonan kemion por kaj doni konilojn kaj kompreni ilin.",
+		"enlude_lingvodependa": false,
+		"ligilo_eldonanto": ["https://czechgames.com/en/codenames/"],
+		"ligilo_tradukprojeko": "www.github.com/paulwuertz/kodvortoj",
+		"ligiloj_vendejo": ["https://www.brettspielbude.de/products/codenames-pictures"],
+		"rimarkoj": "Ekzistas du versioj, kun bildoj kaj vortoj. La vortversio estas vortdependa",
+		"tags": [
+			"kooperiga",
+			"kreema",
+			"kartludo"
+		]
+	},
+	{
+		"nomo": "Dixit",
+		"ludantoj": [3, 12],
+		"agxgrupo": "ekde 8 jaroj",
+		"luddauxro": "30 minutoj",
+		"kosto": 30,
+		"valuto": "€",
+		"bildligilo" : "https://images-fr-cdn.asmodee.com/eu-central-1/filer_public/eb/a3/eba3249c-4039-44de-86d0-2a0e1005301a/300-dixit-odyssey.png",
+		"priskribo": "Rakontu mirindajn hostoriojn, priskribante viajn pentraĵkartojn. La aliaj ludantoj volas ŝteli la atenton de vi, sed ne estu tro klare en via rakontetu, aŭ vi estas punota.",
+		"enlude_lingvodependa": false,
+		"ligilo_eldonanto": ["https://fr.asmodee.com/fr/games/dixit/products/dixit-odyssey/"],
+		"ligiloj_vendejo": ["https://www.milan-spiele.de/dixit-odyssey-p-12570.html"],
+		"rimarkoj": "Ekzistas du versioj, nepre aĉetu Dixit Odyseey, ĉar ĝi pli bone ludeblas kaj taŭgas ĝis 12 ludantoj.",
+		"tags": [
+			"kooperiga",
+			"kreema",
+			"kartludo"
+		]
+	},
+	{
+		"nomo": "Evulocio",
+		"ludantoj": [2, 6],
+		"agxgrupo": "ekde 10 jaroj",
+		"luddauxro": "40 minutoj",
+		"kosto": 10,
+		"valuto": "€",
+		"bildligilo" : "https://www.spielkult.de/skevolutionschmidt1.jpg",
+		"ligilo_eldonanto": ["https://www.schmidtspiele.de/de/produkte/details/product/evolution-der-einstieg-49332.html"],
+		"tags": [
+			"strategio",
+			"kartludo"
+		]
+	},
+	{
+		"nomo": "Blokus",
+		"ludantoj": [2, 6],
+		"agxgrupo": "ekde 10 jaroj",
+		"luddauxro": "40 minutoj",
+		"kosto": 10,
+		"valuto": "€",
+		"bildligilo" : "https://abacusspiele.de/wp-content/uploads/2016/06/HanabiSdJ_Bild01_Cover3D_sRGB-600x600.jpg",
+		"tags": [
+			"strategio"
+		]
+	},
+	{
+		"nomo": "Saboteur",
+		"ludantoj": [2, 6],
+		"agxgrupo": "ekde 10 jaroj",
+		"luddauxro": "40 minutoj",
+		"kosto": 10,
+		"valuto": "€",
+		"bildligilo" : "https://www.amigo-spiele.de/content/ap/web/04900_frontshot.jpg",
+		"ligilo_eldonanto": ["https://www.amigo-spiele.de/spiel/saboteur"],
+		"tags": [
+			"strategio",
+			"kartludo"
+		]
+	},
+	{
+		"nomo": "Set!",
+		"ludantoj": [2, 6],
+		"agxgrupo": "ekde 10 jaroj",
+		"luddauxro": "40 minutoj",
+		"kosto": 10,
+		"valuto": "€",
+		"bildligilo" : "https://abacusspiele.de/wp-content/uploads/2016/06/HanabiSdJ_Bild01_Cover3D_sRGB-600x600.jpg",
+		"tags": [
+			"rapida",
+			"samtempe",
+			"kartludo"
+		]
+	},
+	{
+		"nomo": "Carcassonne",
+		"ludantoj": [2, 6],
+		"agxgrupo": "ekde 10 jaroj",
+		"luddauxro": "40 minutoj",
+		"kosto": 10,
+		"valuto": "€",
+		"bildligilo" : "http://www.carcassonne-spiel.com/wp-content/uploads/carcassonne_spielverpackung.jpg",
+		"ligilo_eldonanto": ["http://www.carcassonne-spiel.com/"],
+		"tags": [
+			"strategio",
+			"kartludo"
+		]
+	},
+	{
+		"nomo": "Go",
+		"ludantoj": [2, 6],
+		"agxgrupo": "ekde 10 jaroj",
+		"luddauxro": "40 minutoj",
+		"kosto": 10,
+		"valuto": "€",
+		"bildligilo" : "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/FloorGoban.JPG/496px-FloorGoban.JPG",
+		"tags": [
+			"strategio"
+		]
+	},
+	{
+		"nomo": "Homlupoj",
+		"ludantoj": [2, 6],
+		"agxgrupo": "ekde 10 jaroj",
+		"luddauxro": "40 minutoj",
+		"kosto": 10,
+		"valuto": "€",
+		"ligilo_eldonanto": ["http://lesloupsgarous.free.fr/"],
+		"tags": [
+			"strategio"
+		]
+	},
+	{
+		"nomo": "Galapagos",
+		"ludantoj": [2, 6],
+		"agxgrupo": "ekde 10 jaroj",
+		"luddauxro": "40 minutoj",
+		"kosto": 10,
+		"valuto": "€",
+		"bildligilo" : "https://www.milan-spiele.de/images/imagecache_mid/gig093.jpg",
+		"ligilo_eldonanto": ["https://www.milan-spiele.de/hellapagos-p-21441.html"],
+		"tags": [
+			"strategio"
+		]
+	},
+	{
+		"nomo": "Geisterblitz",
+		"ludantoj": [2, 6],
+		"agxgrupo": "ekde 10 jaroj",
+		"luddauxro": "40 minutoj",
+		"kosto": 10,
+		"valuto": "€",
+		"ligilo_eldonanto": ["https://www.zoch-verlag.com/de/spiele/geistesblitz/"],
+		"bildligilo" : "https://cdn.simba-dickie-group.de/media/web-zoch/products/601129800/00/overview/geistesblitz-601129800_00.jpeg",
+		"tags": [
+			"strategio"
+		]
+	},
+	{
+		"nomo": "Aĉuloj, Vi!",
+		"ludantoj": [2, 6],
+		"agxgrupo": "ekde 10 jaroj",
+		"luddauxro": "40 minutoj",
+		"kosto": 10,
+		"valuto": "€",
+		"bildligilo" : "https://lakt.uk/wp-content/uploads/2019/04/IMG_20190426_162953-324x324.jpg",
+		"ligilo_eldonanto": ["https://lakt.uk/butiko/aculoj-vi/"],
+		"priskribo":"Tiu ĉi ludo plej bone konvenas al grupo de ĝis 9 amikoj, kiuj jam bone konatiĝis, kaj kiuj ne timas la prijuĝon de la aliaj en la grupo.\n\nLa temoj de la demandoj ne taŭgas por infanoj.",
+		"tags": ["kartludo", "por grupo", "por plenkreskuloj"]
+	},
+	{
+		"nomo": "Amletero",
+		"ludantoj": [2, 6],
+		"agxgrupo": "ekde 10 jaroj",
+		"luddauxro": "40 minutoj",
+		"kosto": 10,
+		"valuto": "€",
+		"bildligilo" : "https://lakt.uk/wp-content/uploads/2019/04/IMG_20181216_184346-1-e1556350689987-324x324.jpg",
+		"ligilo_eldonanto": ["https://lakt.uk/butiko/amletero/"],
+		"priskribo":"Amletero estas esperantigita versio de la konata ludo Love Letter. Ĝi estas ludo de risko, logika rezonado, kaj ŝanco por inter 2 kaj 4 ludantoj.\n\nOni ne bezonas uzi multe da lingvaĵoj por la ludo mem, sed klarigi kaj kompreni la regulojn estus malfacile por komencanto.",
+		"tags": ["kartludo", "por infanoj", "por plenkreskuloj"]
+	},
+	{
+		"nomo": "Dek Bovinoj",
+		"ludantoj": [2, 6],
+		"agxgrupo": "ekde 10 jaroj",
+		"luddauxro": "40 minutoj",
+		"kosto": 10,
+		"valuto": "€",
+		"bildligilo" : "https://lakt.uk/wp-content/uploads/2019/04/IMG_20181208_212556-324x324.jpg",
+		"ligilo_eldonanto": ["https://lakt.uk/butiko/dek-bovinoj/"],
+		"priskribo":"Vi sendube jam konas la furoran kanton kaj videon Dek Bovinoj, sed ĉu vi jam ludis la kartludon? Temas pri rapida ludo por inter 2 kaj 12 homoj, en kiu ĉiuj ludas rapide kaj samtempe ĝis kiam iu signalas la finon de la ludrondo per laŭta “MUUUĜ’!”\n\nSe vi konas la ludon Ligretto, vi jam konas la regulojn de Dek Bovinoj, sed vi povas elŝuti la regulojn en Esperanto kiel referencon. Tiun bovinigitan adapton de la klasika ludo kreis Tim Morley laŭ inspira propono de Spencer van der Meulen. Dankon Spenĉjo!",
+		"tags": ["kartludo", "por infanoj", "por klasĉambro", "por plenkreskuloj"]
+	},
+	{
+		"nomo": "Doblo",
+		"ludantoj": [2, 6],
+		"agxgrupo": "ekde 10 jaroj",
+		"luddauxro": "40 minutoj",
+		"kosto": 10,
+		"valuto": "€",
+		"bildligilo" : "https://lakt.uk/wp-content/uploads/2019/04/IMG_20180515_202630-324x324.jpg",
+		"ligilo_eldonanto": ["https://lakt.uk/butiko/doblo/"],
+		"priskribo":"Doblo estas versio de la konata ludo Dobble, adaptita por esti pli konvena por lingvo-instruado. Por ludi, oni bezonas scii nur 31 tre bazajn vortojn, inkl. kato, virino, viro, aŭto, tablo, k.s. Ĝi taŭgas egale por infanoj kaj por plenkreskuloj; ĝi fakte tre bone “egaligas” inter plej diversaj aĝoj, kaj se vi ludas kontraŭ juna infano… nu, foje vi gajnos, sed foje tute ne!\n\nLa kartoj mem surhavas nur bildojn, do la ludo funkcias egale bone en iu ajn lingvo. Ludu ĝin en via hejma lingvo, aŭ uzu ĝin por ekzerci novan lingvon kun amikoj aŭ en via klasĉambro.",
+		"tags": ["kartludo", "por infanoj", "por klasĉambro", "por plenkreskuloj"]
+	},
+	{
+		"nomo": "Kartoj Kontraŭ Esperantujo",
+		"ludantoj": [2, 6],
+		"agxgrupo": "ekde 10 jaroj",
+		"luddauxro": "40 minutoj",
+		"kosto": 10,
+		"valuto": "€",
+		"bildligilo" : "https://lakt.uk/wp-content/uploads/2019/04/IMG_20170622_184737-324x324.jpg",
+		"ligilo_eldonanto": ["https://lakt.uk/butiko/kartoj-kontrau-esperantujo/"],
+		"priskribo":"Kartoj Kontraŭ Esperantujo furoras en la eŭropaj junularaj aranĝoj ekde sia apero en 2014. Tiu ĉi traduko kaj adapto de la origina ludo Cards Against Humanity inkluzivas multajn referencojn al unikaj aferoj, situacioj kaj homoj de Esperantujo.",
+		"tags": ["kartludo", "por grupo", "por plenkreskuloj"]
+	},
+	{
+		"nomo": "Komunopolo",
+		"ludantoj": [2, 6],
+		"agxgrupo": "ekde 10 jaroj",
+		"luddauxro": "40 minutoj",
+		"kosto": 10,
+		"valuto": "€",
+		"bildligilo" : "https://lakt.uk/wp-content/uploads/2019/04/IMG_20190225_140526-1-324x324.jpg",
+		"ligilo_eldonanto": ["https://lakt.uk/butiko/komunopolo/"],
+		"priskribo":"Tiu ĉi estas hakita, subfosita versio de la mondfama Monopoly, en kiu la ludantoj kunlaboras kiel unu teamo por bloki la privatigon de la rimedoj de sia urbo. Ĝi inkluzivas elementojn ankaŭ de rolludo, kaj unu homo estas la Lud-Majstro; tiu homo ludas ankaŭ la rolon de la fia Spekulanto, kiu celas privatigi lokojn kaj servojn, kaj malhelpi kaj puni la aliajn ludantojn.\n\nLa luda mekanismo estas tute malsama ol Monopoly, kaj donas al la ludantoj veran senton de kuna strebo. Laŭ la hazarde donitaj roloj, ludantoj havas diversajn fortojn kaj malfortojn, kaj devas helpi la grupon per siaj fortoj sed ankaŭ dependi de la grupo pro siaj malfortoj. Se la grupo sukcesas akiri sufiĉe da Legitimecaj Poentoj, ili povas rapidi al la Centra Agoro kaj lanĉi Kolektivan Ribelon!\n\nLa ludo vendata ĉi tie estas esperantigo de Commonspoly. Ĉe la retejo commonspoly.cc, vi povas legi pri la historio kaj evoluo de la ludo, kaj elŝuti aŭ aĉeti ĝin en la angla.\n\nLa esperantigon faris Tim Morley, kun helpo de Przemysław Wierzbowski (grafikaĵoj) kaj Gavan Fantom (3D-presado).",
+		"tags": []
+	},
+	{
+		"nomo": "Kvin Bovinoj",
+		"ludantoj": [2, 6],
+		"agxgrupo": "ekde 10 jaroj",
+		"luddauxro": "40 minutoj",
+		"kosto": 10,
+		"valuto": "€",
+		"bildligilo" : "https://lakt.uk/wp-content/uploads/2019/05/IMG_20190501_101016-324x324.jpg",
+		"ligilo_eldonanto": ["https://lakt.uk/butiko/kvin-bovinoj/"],
+		"priskribo":"Jen la dua kartludo, en kiu aperas la roluloj de Babelo Filmoj; tiu ĉi nomiĝas Kvin Bovinoj, kaj funkcias laŭ la reguloj de Halli Galli. Ĝi bone taŭgas por ludi kun infanoj (sed ne nepras la infanoj!)\n\nNeniuj lingvaĵoj estas bezonataj dum la ludado mem, kaj eĉ klarigi la regulojn senvorte estas ne tre granda defio. Tial la ludo konvenas por komencantoj, aŭ por iu ajn internacia grupo sen komuna lingvo.",
+		"tags": ["kartludo", "por grupo", "por plenkreskuloj"]
+	},
+	{
+		"nomo": "Pasis la Temp’",
+		"ludantoj": [2, 6],
+		"agxgrupo": "ekde 10 jaroj",
+		"luddauxro": "40 minutoj",
+		"kosto": 10,
+		"valuto": "€",
+		"bildligilo" : "https://lakt.uk/wp-content/uploads/2019/04/IMG_20160615_135903-324x324.jpg",
+		"ligilo_eldonanto": ["https://lakt.uk/butiko/pasis-la-temp/"],
+		"priskribo":"Tiu ĉi ludo estas versio de la konata ludo Time’s Up!, adaptita al la Esperanto-movado. Ludantoj devas priskribi al sia partnero gravulojn, eventojn, muzikistojn, gramatikaĵojn, k.s. La ludo funkcias plej bone kun ludantoj, kiuj jam havas bonan scion pri la historio de la movado, sed oni ja povas iom lerni pri tio dum la ludado. Ili certe bezonos paroli sufiĉe flue kaj rapide.\n\nPor ludi Pasis la Temp’, oni bezonas paran nombron da ludantoj, ideale inter 6 kaj 10 homoj.",
+		"tags": ["kartludo", "por grupo", "por plenkreskuloj"]
+	}
+]
