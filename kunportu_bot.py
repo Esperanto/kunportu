@@ -15,6 +15,9 @@ def kunporti_teon():
 def elpacki():
     pass
 
+def error(bot, update, error):
+    logger.warning('Update "%s" caused error "%s"', update, error)
+
 def main():
     global update_id
     # Create the EventHandler and pass it your bot's token.
