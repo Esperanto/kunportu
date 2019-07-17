@@ -23,6 +23,12 @@ class Ludo(Base):
     bildpado = Column(String)
     ecoj = Column(JSON)
 
+    def as_dict_for_inline(self):
+       return {
+            "nomo": self.ludo_nomo, "bildo": self.bildpado,
+            "priskribo":self.ecoj["priskribo"][:80] if "priskribo" in self.ecoj else ""
+       }
+
 class Kunportajxo(Base):
     __tablename__ = "kunportajxo"
     id = Column(Integer, primary_key=True, unique=True, nullable=False)
@@ -45,6 +51,12 @@ def enpaki(kategorio, grupo, grupnomo, uzanto_id, kunportajxo_nomo, ecoj, bildo=
         bildpado=bildpado, ecoj=ecoj
     ))
     return False
+
+def elpaki(kategorio, grupo, grupnomo, uzanto_id, kunportajxo_nomo):
+    pass #TODO
+
+def cxiuj_ludoj_json():
+    return [ludo.as_dict_for_inline() for ludo in session.query(Ludo).all()]
 
 def createDB():
     Base.metadata.create_all(engine);
