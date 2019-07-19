@@ -55,15 +55,17 @@ def enpaki(kategorio, grupnomo, chat_id, uzanto_id, kunportajxo_nomo, ecoj, bild
         return True
     return False
 
-def elpaki(kategorio, grupnomo, chat_id, uzanto_id, kunportajxo_nomo):
+def elpaki(kategorio, chat_id, uzanto_id, kunportajxo_nomo):
     elpakindajxo = session.query(Kunportajxo).filter(
-        Kunportajxo.chat_id==chat_id, Kunportajxo.kategorio==kategorio,  Kunportajxo.grupnomo==grupnomo,
-        Kunportajxo.uzanto_id==uzanto_id, Kunportajxo.kunportajxo_nomo==kunportajxo_nomo
-    ).first_or_none()
+        Kunportajxo.chat_id==chat_id, Kunportajxo.kategorio==kategorio,
+        Kunportajxo.uzanto_id==uzanto_id, Kunportajxo.nomo==kunportajxo_nomo
+    ).first()
     if elpakindajxo:
         session.delete(elpakindajxo)
         session.commit()
-
+        return True
+    else:
+        return False
 
 def cxiuj_ludoj_json():
     return [ludo.as_dict_for_inline() for ludo in session.query(Ludo).all()]
