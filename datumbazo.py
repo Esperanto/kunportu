@@ -70,6 +70,11 @@ def elpaki(kategorio, chat_id, uzanto_id, kunportajxo_nomo):
 def cxiuj_ludoj_json():
     return [ludo.as_dict_for_inline() for ludo in session.query(Ludo).all()]
 
+def listigi_kategorio_de_grupo(kategorio, chat_id):
+    enpakita = session.query(Kunportajxo).filter(
+        Kunportajxo.chat_id==chat_id, Kunportajxo.kategorio==kategorio
+    ).all()
+
 def createDB():
     Base.metadata.create_all(engine);
     if not os.path.exists('img'): os.makedirs('img')
