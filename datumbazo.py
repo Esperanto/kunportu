@@ -7,7 +7,7 @@ from sqlalchemy.dialects.mysql import BIGINT
 from sqlalchemy.dialects.mysql import LONGTEXT
 from sqlalchemy.orm import sessionmaker, relationship, backref
 
-engine = create_engine(r'sqlite:///app.db', echo=True)
+engine = create_engine(r'sqlite:///app.db', echo=False)
 Session = sessionmaker()
 Session.configure(bind=engine)
 session = Session()
@@ -32,8 +32,8 @@ class Ludo(Base):
 class Kunportajxo(Base):
     __tablename__ = "kunportajxo"
     id = Column(Integer, primary_key=True, unique=True, nullable=False)
-    chat_id = Column(Integer, primary_key=True, unique=False, nullable=False)
-    chat_nomo = Column(String)
+    chat_id = Column(Integer, nullable=False)
+    grupnomo = Column(String)
     uzanto_id = Column(Integer)
     kategorio = Column(String)
     nomo = Column(String)
@@ -41,22 +41,39 @@ class Kunportajxo(Base):
     ecoj = Column(JSON)
 
 #get chatIDs last turn
-def enpaki(kategorio, grupo, grupnomo, uzanto_id, kunportajxo_nomo, ecoj, bildo=None):
-    if kategorio is "ludo" and not session.query(Ludo).filter(Ludo.ludo_nomo==kunportajxo_nomo).one():
-        print("Ludo estas nekonata...")
-        return False
-    session.add(Kunportajxo(chat_id=chat_id,
-        chat_nomo=chat_nomo, uzanto_id=uzanto_id,
-        kategorio=kategorio, nomo=nomo,
-        bildpado=bildpado, ecoj=ecoj
-    ))
+def enpaki(kategorio, grupnomo, chat_id, uzanto_id, kunportajxo_nomo, ecoj, bildo=None):
+    if kategorio is "ludo":
+        ludo = session.query(Ludo).filter(Ludo.ludo_nomo==kunportajxo_nomo).one_or_none()
+        if not ludo:
+            print("Ludo estas nekonata...")
+            return False
+        session.add(Kunportajxo(chat_id=chat_id,
+            grupnomo=grupnomo, uzanto_id=uzanto_id,
+            kategorio=kategorio, nomo=kunportajxo_nomo,
+            bildpado=ludo.bildpado, ecoj=ecoj
+        ))
+        return True
     return False
 
-def elpaki(kategorio, grupo, grupnomo, uzanto_id, kunportajxo_nomo):
-    pass #TODO
+def elpaki(kategorio, chat_id, uzanto_id, kunportajxo_nomo):
+    elpakindajxo = session.query(Kunportajxo).filter(
+        Kunportajxo.chat_id==chat_id, Kunportajxo.kategorio==kategorio,
+        Kunportajxo.uzanto_id==uzanto_id, Kunportajxo.nomo==kunportajxo_nomo
+    ).first()
+    if elpakindajxo:
+        session.delete(elpakindajxo)
+        session.commit()
+        return True
+    else:
+        return False
 
 def cxiuj_ludoj_json():
     return [ludo.as_dict_for_inline() for ludo in session.query(Ludo).all()]
+
+def listigi_kategorio_de_grupo(kategorio, chat_id):
+    enpakita = session.query(Kunportajxo).filter(
+        Kunportajxo.chat_id==chat_id, Kunportajxo.kategorio==kategorio
+    ).all()
 
 def createDB():
     Base.metadata.create_all(engine);

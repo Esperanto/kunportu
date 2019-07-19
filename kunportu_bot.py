@@ -1,19 +1,39 @@
 import logging, sys, datetime
-from telegram import (ReplyKeyboardMarkup, ReplyKeyboardRemove)
 from telegram.ext import (Updater, CommandHandler, MessageHandler, Filters, RegexHandler,
         CallbackQueryHandler, ConversationHandler, InlineQueryHandler, ChosenInlineResultHandler)
-from telegram import InlineQueryResultArticle, ParseMode, InputTextMessageContent
+from telegram import InlineQueryResultArticle, ParseMode, InputTextMessageContent, ReplyKeyboardMarkup, KeyboardButton, ReplyKeyboardRemove
 from telegram.utils.helpers import escape_markdown
 from datumbazo import *
 
-def kunporti_ludon():
-    pass
+def enpaki(bot, update):
+    
+    kunportajxo = update.message.text.split(' ')[1]
+    
+    kategorioj = [[KeyboardButton(text='1. Manĝo\nTrinkaĵo')],
+                 [KeyboardButton(text='2. Teo')],
+                 [KeyboardButton(text='3. Ludo')],
+                 [KeyboardButton(text='4. Alia aĵo')]]
 
-def kunporti_teon():
-    pass
+    klavaro = ReplyKeyboardMarkup(kategorioj, 
+                                  resize_keyboard = False, 
+                                  one_time_keyboard = True,
+                                  selective = True)
 
-def elpacki():
-    pass
+    respondo = update.message.reply_text('Kio estas via kunportaĵo?',
+                                         reply_markup = klavaro)
+    
+    kategorio = respondo.message.text[1]
+    
+    update.message.reply_text('Via _{kategori}_ *{kunportajx}* estis registrita. Dankon pro via kontribuo!'
+                              .format(kategori=kategorio, kunportajx=kunportajxo),
+                              parse_mode = ParseMode.MARKDOWN,
+                              reply_markup = ReplyKeyboardRemove(remove_keyboard = True, selective = True))
+
+def elpaki(bot, update):
+    # print(update)
+    update.message.reply_text('Registritaj kunportaĵoj: {afero}'
+                              .format(afero=update.message.text.split(' ')[1])
+    )
 
 def error(bot, update, error):
     logger.warning('Update "%s" caused error "%s"', update, error)
@@ -21,13 +41,13 @@ def error(bot, update, error):
 def main():
     global update_id
     # Create the EventHandler and pass it your bot's token.
-    updater = Updater("YOUR_TELEGRAM_API_KEY")
+    updater = Updater("")
 
     # Get the dispatcher to register handlers
     dp = updater.dispatcher
-    dp.add_handler(CommandHandler("ludo", kunporti_ludon))
-    dp.add_handler(CommandHandler("teo", kunporti_teon))
-    dp.add_handler(CommandHandler("elpaki", elpacki))
+    dp.add_handler(CommandHandler("enpaki", enpaki))
+    dp.add_handler(CommandHandler("elpaki", elpaki))
+    dp.add_handler(CommandHandler("elpaki", listigi))
 
     # log all errors
     dp.add_error_handler(error)
