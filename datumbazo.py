@@ -41,7 +41,7 @@ class Kunportajxo(Base):
     ecoj = Column(JSON)
 
 #get chatIDs last turn
-def enpaki(kategorio, grupo, grupnomo, chat_id, uzanto_id, kunportajxo_nomo, ecoj, bildo=None):
+def enpaki(kategorio, grupnomo, chat_id, uzanto_id, kunportajxo_nomo, ecoj, bildo=None):
     if kategorio is "ludo":
         ludo = session.query(Ludo).filter(Ludo.ludo_nomo==kunportajxo_nomo).one_or_none()
         if not ludo:
@@ -55,8 +55,15 @@ def enpaki(kategorio, grupo, grupnomo, chat_id, uzanto_id, kunportajxo_nomo, eco
         return True
     return False
 
-def elpaki(kategorio, grupo, grupnomo, uzanto_id, kunportajxo_nomo):
-    pass #TODO
+def elpaki(kategorio, grupnomo, chat_id, uzanto_id, kunportajxo_nomo):
+    elpakindajxo = session.query(Kunportajxo).filter(
+        Kunportajxo.chat_id==chat_id, Kunportajxo.kategorio==kategorio,  Kunportajxo.grupnomo==grupnomo,
+        Kunportajxo.uzanto_id==uzanto_id, Kunportajxo.kunportajxo_nomo==kunportajxo_nomo
+    ).first_or_none()
+    if elpakindajxo:
+        session.delete(elpakindajxo)
+        session.commit()
+
 
 def cxiuj_ludoj_json():
     return [ludo.as_dict_for_inline() for ludo in session.query(Ludo).all()]
